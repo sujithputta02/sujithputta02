@@ -1,16 +1,15 @@
 name: Generate GitHub Stats
-
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-
+permissions:   # ← FIX 1: grant write access
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -18,11 +17,11 @@ jobs:
           outputs: |
             dist/snake-dark.svg?palette=github-dark
             dist/snake-light.svg
-
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false    # ← FIX 2: avoids history conflicts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
