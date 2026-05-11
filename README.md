@@ -54,8 +54,7 @@
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 
 <br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=sujithputta02&color=79C0FF&style=flat-square&label=PROFILE+VIEWS" />
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsujithputta02&count_bg=%2379C0FF&title_bg=%230D1117&icon=github.svg&icon_color=%2379C0FF&title=PROFILE+VIEWS&edge_flat=true" />
 
 <br/><br/>
 
