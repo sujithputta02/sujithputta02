@@ -54,7 +54,7 @@
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 
 <br/><br/>
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsujithputta02&count_bg=%2379C0FF&title_bg=%230D1117&icon=github.svg&icon_color=%2379C0FF&title=PROFILE+VIEWS&edge_flat=true" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=sujithputta02.sujithputta02&left_color=0D1117&right_color=79C0FF&left_text=PROFILE%20VIEWS" />
 
 <br/><br/>
 
