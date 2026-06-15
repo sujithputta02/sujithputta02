@@ -1,8 +1,3 @@
-# ⚡ RETRO DIGITAL PROFILE README ⚡
-
-You can copy this README directly into your GitHub profile repository (e.g., `sujithputta02/sujithputta02`).
-
-```markdown
 <div align="center">
 
 <!-- RETRO CRT SYSTEM BANNER (INLINE SVG) -->
@@ -335,4 +330,3 @@ Mission: Architecting intelligent, secure UX and carbon-conscious tech.
 <img src="https://visitor-badge.laobi.icu/badge?page_id=sujithputta02.sujithputta02&left_color=080b10&right_color=39ff14&left_text=SYSTEM%20VISITS" />
 
 </div>
-```
