@@ -1,9 +1,9 @@
 <div align="center">
 
-<!-- RETRO CRT SYSTEM BANNER (STANDALONE SVG) -->
-<img src="public/header.svg" width="100%" alt="Retro CRT System Banner" />
+<!-- SUPER MARIO RETRO GAME LEVEL (ANIMATED STANDALONE SVG) -->
+<img src="public/header.svg" width="100%" alt="Super Mario Retro Game Level" />
 
-<!-- 8-BIT SUBHEADER -->
+<!-- 8-BIT MARIO LOGO SUBHEADER -->
 <pre>
  ██████  ██    ██      ██ ████████ ██   ██     ██████  ██    ██ ████████ ████████  █████  
 ██       ██    ██      ██    ██    ██   ██     ██   ██ ██    ██    ██       ██    ██   ██ 
@@ -12,48 +12,48 @@
  ██████   ██████   █████     ██    ██   ██     ██       ██████     ██       ██    ██   ██ 
 </pre>
 
-🚀 **Full-Stack Developer & AI Specialist**
-*Architecting high-performance systems and intelligent user experiences.*
+🎮 **Full-Stack Developer & AI Specialist**
+*Architecting high-performance systems and intelligent, game-changing user experiences.*
 
 </div>
 
 ---
 
-### 🖥️ SYSTEM OVERVIEW (neofetch)
+### 🕹️ MARIO SYSTEM OVERVIEW (neofetch)
 
 ```bash
-sujithputta02@terminal:~$ neofetch --retro
+sujithputta02@terminal:~$ ./mario_boot.sh --status
 ```
 ```yaml
-OS: macOS / Hybrid Intelligent System
+OS: NES / Mushroom Kingdom OS
 Host: Full-Stack Developer & AI Specialist
-Kernel: Next.js + Tailwind + Python AI Models
-Uptime: Always building 🚀
+Kernel: Super Mario Engine v1.1
+Uptime: Level 1-1 Cleared 🌟
 Shell: zsh / TypeScript / Python
-Resolution: Pixel-Perfect 8-bit
-Editor: VS Code / Cursor / Vim
-CPU: Brain Core (Neural Net-powered)
-Memory: Optimized for RAG & High-Performance Systems
-Mission: Architecting intelligent, secure UX and carbon-conscious tech.
+Resolution: 8-bit Pixel Art
+Editor: VS Code / Cursor / Mario Paint
+CPU: NES Ricoh 2A03 (Neural Net-powered)
+Memory: 2KB Internal Work RAM (Optimized for RAG Systems)
+Mission: Defeating bugs, stomping carbon footprints, and rescuing clean UX code.
 ```
 
 ---
 
-### 🛡️ HERO EQUIPMENT & SKILLS INVENTORY (STANDALONE SVG)
+### 👾 HERO SELECT & STATS STATUS BOARD (ANIMATED STANDALONE SVG)
 
 <div align="center">
-  <img src="public/skills.svg" width="100%" alt="Hero Equipment &amp; Skills Inventory" />
+  <img src="public/mario_stats.svg" width="100%" alt="Mario Character Stats Status Board" />
 </div>
 
 ---
 
-### 🕹️ ACTIVE QUEST LOG (Recent Projects)
+### 🍄 CURRENT ADVENTURE QUESTS (Projects)
 
-| QUEST NAME | DIFFICULTY | REWARD | OBJECTIVE / SUMMARY |
-| :--- | :---: | :---: | :--- |
-| **CarbonPulse 🟢💨** | `ELITE` | `+5000 XP` | AI Carbon footprints tracker and micro-recommendation engine. |
-| **Secure Offline RAG 🧠🔐** | `LEGENDARY` | `+8500 XP` | Zero-network data ingestion & query system using local LLMs. |
-| **DineInGo-App 🍔⚡** | `HARD` | `+4000 XP` | Real-time queue and high-performance ordering systems. |
+| LEVEL | QUEST NAME | DIFFICULTY | REWARD | OBJECTIVE / SUMMARY |
+| :---: | :--- | :---: | :---: | :--- |
+| **1-2** | **CarbonPulse 🟢💨** | `ELITE` | `+5000 PTS` | AI Carbon footprints tracker and micro-recommendation engine. |
+| **1-3** | **Secure Offline RAG 🧠🔐** | `LEGENDARY` | `+8500 PTS` | Zero-network data ingestion & query system using local LLMs. |
+| **1-4** | **DineInGo-App 🍔⚡** | `HARD` | `+4000 PTS` | Real-time queue and high-performance ordering systems. |
 
 ---
 
