@@ -3,15 +3,6 @@
 <!-- SUPER MARIO RETRO GAME LEVEL (ANIMATED STANDALONE SVG) -->
 <img src="public/header.svg" width="100%" alt="Super Mario Retro Game Level" />
 
-<!-- 8-BIT MARIO LOGO SUBHEADER -->
-<pre>
- ██████  ██    ██      ██ ████████ ██   ██     ██████  ██    ██ ████████ ████████  █████  
-██       ██    ██      ██    ██    ██   ██     ██   ██ ██    ██    ██       ██    ██   ██ 
- ██████  ██    ██      ██    ██    ███████     ██████  ██    ██    ██       ██    ███████ 
-      ██ ██    ██ ██   ██    ██    ██   ██     ██      ██    ██    ██       ██    ██   ██ 
- ██████   ██████   █████     ██    ██   ██     ██       ██████     ██       ██    ██   ██ 
-</pre>
-
 🎮 **Full-Stack Developer & AI Specialist**
 *Architecting high-performance systems and intelligent, game-changing user experiences.*
 
@@ -39,7 +30,7 @@ Mission: Defeating bugs, stomping carbon footprints, and rescuing clean UX code.
 
 ---
 
-### 👾 HERO SELECT & STATS STATUS BOARD (ANIMATED STANDALONE SVG)
+### 👾 HERO SELECT & STATS STATUS BOARD (STANDALONE SVG)
 
 <div align="center">
   <img src="public/mario_stats.svg" width="100%" alt="Mario Character Stats Status Board" />
@@ -71,7 +62,7 @@ Mission: Defeating bugs, stomping carbon footprints, and rescuing clean UX code.
   <tr>
     <td colspan="2" align="center">
       <br/>
-      <img src="https://streak-stats.demolab.com/?user=sujithputta02&hide_border=false&background=080b10&stroke=39ff14&ring=00f0ff&fire=39ff14&currStreakLabel=39ff14&sideLabels=a8ffb2&dates=a8ffb2" width="70%" />
+      <img src="https://streak-stats.demolab.com/?user=sujithputta02&hide_border=false&background=080b10&stroke=39ff14&ring=00f0ff&fire=39ff14&currStreakLabel=39ff14&currStreakNum=ffffff&sideLabels=a8ffb2&sideNums=ffffff&dates=a8ffb2" width="70%" />
     </td>
   </tr>
 </table>

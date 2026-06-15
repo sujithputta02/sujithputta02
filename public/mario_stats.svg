@@ -66,12 +66,11 @@
     
     <!-- Stat Item: Total Commits (represented as Goombas stomped!) -->
     <g transform="translate(20, 60)" class="block-icon">
-      <!-- Goomba Icon -->
       <path d="M3 8 C3 2, 13 2, 13 8 Z" fill="#a85400"/>
       <rect x="5" y="8" width="6" height="3" fill="#fce4a0"/>
     </g>
     <text x="45" y="70" class="text-label">COMMITS STOMPED:</text>
-    <text x="245" y="70" class="text-val" id="val-commits">638</text>
+    <text x="245" y="70" class="text-val" id="val-commits">639</text>
 
     <!-- Stat Item: Stars Received (represented as Gold Coins) -->
     <g transform="translate(20, 100)" class="block-icon-delay1">
@@ -80,7 +79,7 @@
     <text x="45" y="110" class="text-label">COINS COLLECTED:</text>
     <text x="245" y="110" class="text-val" id="val-stars">6</text>
 
-    <!-- Stat Item: Public Repos (represented as pipes cleared!) -->
+    <!-- Stat Item: Public Repos (represented as levels cleared!) -->
     <g transform="translate(20, 140)" class="block-icon-delay2">
       <rect x="3" y="1" width="10" height="13" fill="#00a800"/>
     </g>
@@ -89,7 +88,6 @@
 
     <!-- Stat Item: Followers (represented as Toad companions!) -->
     <g transform="translate(20, 180)" class="block-icon-delay3">
-      <!-- Toad mushroom cap -->
       <circle cx="8" cy="6" r="6" fill="#ff0000"/>
       <circle cx="8" cy="11" r="4" fill="#ffcca0"/>
     </g>
@@ -126,7 +124,6 @@
 
     <!-- Skill: RAG / AI (Super Star) -->
     <g transform="translate(20, 175)" class="block-icon-delay3">
-      <!-- Star shape -->
       <polygon points="8,1 10,6 15,6 11,10 13,15 8,12 3,15 5,10 1,6 6,6" fill="#fcf800"/>
     </g>
     <text x="45" y="185" class="text-label">STAR AI &amp; RAG:</text>

@@ -39,6 +39,24 @@
       .q-block { fill: #fc9838; stroke: #000000; stroke-width: 1.5; animation: qBlockPulse 1s infinite steps(4); }
       .q-text { font-family: 'Press Start 2P', monospace; font-size: 12px; fill: #ffffff; font-weight: bold; }
       
+      /* Title text in colorful Mario logo style */
+      .title-text {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 30px;
+      }
+      
+      .letter-bounce {
+        display: inline-block;
+        animation: letterBob 2s infinite ease-in-out;
+      }
+      
+      .subtitle-text {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 10px;
+        fill: #ffffff;
+        letter-spacing: 1px;
+      }
+      
       /* Characters */
       .mario-character {
         animation: marioRunAndJump 10s infinite linear;
@@ -63,6 +81,11 @@
       @keyframes cloudDrift {
         0% { transform: translateX(850px); }
         100% { transform: translateX(-200px); }
+      }
+
+      @keyframes letterBob {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
       }
 
       @keyframes marioRunAndJump {
@@ -115,10 +138,9 @@
     <path d="M60,10 C55,10 50,14 50,19 C45,19 40,23 40,28 C40,33 45,37 50,37 L80,37 C85,37 90,33 90,28 C90,23 85,19 80,19 C80,14 75,10 70,10 Z" class="cloud" opacity="0.6"/>
   </g>
 
-  <!-- HUD Stats Selection (Real-time synced headers) -->
-  <!-- Header Columns -->
+  <!-- HUD Stats Selection -->
   <text x="50" y="30" class="hud-label">SUJITH</text>
-  <text x="50" y="45" class="hud-value">000638</text>
+  <text x="50" y="45" class="hud-value">000639</text>
 
   <text x="280" y="30" class="hud-label">COINS</text>
   <text x="280" y="45" class="hud-value">x06</text>
@@ -128,6 +150,24 @@
 
   <text x="730" y="30" class="hud-label">TIME</text>
   <text x="730" y="45" class="hud-value">2026</text>
+
+  <!-- Main Colorful Animated Mario-style Title -->
+  <text x="425" y="102" class="title-text" text-anchor="middle" stroke="#000000" stroke-width="4" paint-order="stroke fill" font-weight="bold">
+    <tspan class="letter-bounce" fill="#e52521">S</tspan>
+    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.1s">U</tspan>
+    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 0.2s">J</tspan>
+    <tspan class="letter-bounce" fill="#43b047" style="animation-delay: 0.3s">I</tspan>
+    <tspan class="letter-bounce" fill="#e52521" style="animation-delay: 0.4s">T</tspan>
+    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.5s">H</tspan>
+    <tspan class="letter-bounce"> </tspan>
+    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 0.6s">P</tspan>
+    <tspan class="letter-bounce" fill="#43b047" style="animation-delay: 0.7s">U</tspan>
+    <tspan class="letter-bounce" fill="#e52521" style="animation-delay: 0.8s">T</tspan>
+    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.9s">T</tspan>
+    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 1.0s">A</tspan>
+  </text>
+  
+  <text x="425" y="125" class="subtitle-text" text-anchor="middle" stroke="#000000" stroke-width="2.5" paint-order="stroke fill">> FULL-STACK DEVELOPER &amp; AI SPECIALIST &lt;</text>
 
   <!-- Level Bricks & Pipes -->
   <!-- Green Pipe -->
@@ -139,7 +179,7 @@
     <rect x="2" y="2" width="6" height="16" fill="#ffffff"/>
   </g>
 
-  <!-- Floating Bricks & Question Block (Center Stage) -->
+  <!-- Floating Bricks & Question Block -->
   <!-- Brick 1 -->
   <g transform="translate(350, 130)">
     <rect width="32" height="32" class="brick-base"/>
@@ -151,7 +191,7 @@
     <line x1="16" y1="10" x2="16" y2="21" class="brick-line"/>
     <line x1="27" y1="10" x2="27" y2="21" class="brick-line"/>
   </g>
-  <!-- Question Block (Jumping Coin block) -->
+  <!-- Question Block -->
   <g transform="translate(382, 130)" class="q-block-container">
     <rect width="32" height="32" class="q-block"/>
     <text x="16" y="22" class="q-text" text-anchor="middle">?</text>
@@ -178,53 +218,40 @@
     <line x1="10" y1="9" x2="10" y2="21" stroke="#fc9838" stroke-width="1.5"/>
   </g>
 
-  <!-- Goomba Character (Walks around floor) -->
+  <!-- Goomba Character -->
   <g class="goomba-character">
-    <!-- Goomba Body -->
     <path d="M 6 16 C 6 4, 26 4, 26 16 Z" fill="#a85400" stroke="#000" stroke-width="1.5"/>
     <path d="M 10 16 L 22 16 L 22 22 L 10 22 Z" fill="#fce4a0" stroke="#000" stroke-width="1.5"/>
-    <!-- Feet -->
     <ellipse cx="9" cy="22" rx="4" ry="3" fill="#000000"/>
     <ellipse cx="23" cy="22" rx="4" ry="3" fill="#000000"/>
-    <!-- Eyes -->
     <rect x="12" y="9" width="2" height="5" fill="#000"/>
     <rect x="18" y="9" width="2" height="5" fill="#000"/>
   </g>
 
-  <!-- Mario Character (Runs and jumps) -->
+  <!-- Mario Character -->
   <g class="mario-character">
-    <!-- Cap -->
     <path d="M 6 0 h 12 v 4 h -12 Z" fill="#ff0000"/>
     <path d="M 4 2 h 18 v 2 h -18 Z" fill="#ff0000"/>
-    <!-- Hair & Face -->
     <path d="M 6 4 h 6 v 2 h -6 Z" fill="#a85400"/>
     <path d="M 12 4 h 6 v 2 h -6 Z" fill="#ffcca0"/>
     <rect x="18" y="4" width="2" height="4" fill="#000000"/>
     <path d="M 6 6 h 2 v 4 h -2 Z" fill="#a85400"/>
     <path d="M 8 6 h 12 v 6 h -12 Z" fill="#ffcca0"/>
-    <!-- Mustache -->
     <path d="M 14 10 h 6 v 2 h -6 Z" fill="#a85400"/>
-    <!-- Shirt & Overalls -->
     <path d="M 4 12 h 16 v 10 h -16 Z" fill="#ff0000"/>
     <path d="M 8 12 h 8 v 12 h -8 Z" fill="#0000d8"/>
-    <!-- Straps/Buttons -->
     <circle cx="10" cy="18" r="1.5" fill="#fcf800"/>
     <circle cx="14" cy="18" r="1.5" fill="#fcf800"/>
-    <!-- Hands (Peach) -->
     <circle cx="2" cy="17" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
     <circle cx="22" cy="17" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
-    <!-- Boots (Brown) -->
     <rect x="6" y="24" width="5" height="6" fill="#a85400" stroke="#000" stroke-width="1.5"/>
     <rect x="13" y="24" width="5" height="6" fill="#a85400" stroke="#000" stroke-width="1.5"/>
   </g>
 
-  <!-- Ground Terrain (Bottom layer) -->
+  <!-- Ground Terrain -->
   <g transform="translate(0, 240)">
-    <!-- Loop drawing floor tiles -->
-    <!-- Tile templates repeating across width -->
     <path d="M 0 0 h 850 v 8 h -850 Z" class="ground-top"/>
     <path d="M 0 8 h 850 v 32 h -850 Z" class="ground-side"/>
-    <!-- Diagonal brick lines to simulate block texture -->
     <path d="M 0 8 L 850 8 M 0 18 L 850 18 M 0 28 L 850 28 M 0 38 L 850 38" stroke="#000" stroke-width="1" stroke-opacity="0.4"/>
     <path d="M 20 8 v 32 M 40 8 v 32 M 60 8 v 32 M 80 8 v 32 M 100 8 v 32 M 120 8 v 32 M 140 8 v 32 M 160 8 v 32 M 180 8 v 32 M 200 8 v 32 M 220 8 v 32 M 240 8 v 32 M 260 8 v 32 M 280 8 v 32 M 300 8 v 32 M 320 8 v 32 M 340 8 v 32 M 360 8 v 32 M 380 8 v 32 M 400 8 v 32 M 420 8 v 32 M 440 8 v 32 M 460 8 v 32 M 480 8 v 32 M 500 8 v 32 M 520 8 v 32 M 540 8 v 32 M 560 8 v 32 M 580 8 v 32 M 600 8 v 32 M 620 8 v 32 M 640 8 v 32 M 660 8 v 32 M 680 8 v 32 M 700 8 v 32 M 720 8 v 32 M 740 8 v 32 M 760 8 v 32 M 780 8 v 32 M 800 8 v 32 M 820 8 v 32 M 840 8 v 32" stroke="#000" stroke-width="1" stroke-opacity="0.4"/>
   </g>
