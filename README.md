@@ -10,7 +10,7 @@
 
 ---
 
-### 🕹️ GAME SYSTEM OVERVIEW (neofetch)
+### 🕹️ GAME SYSTEM OVERVIEW
 
 <div align="center">
   <img src="public/system_overview.svg" width="100%" alt="Game System Overview" />
@@ -18,7 +18,7 @@
 
 ---
 
-### 👾 HERO SELECT & STATS STATUS BOARD (STANDALONE SVG)
+### 👾 HERO SELECT & STATS STATUS BOARD
 
 <div align="center">
   <img src="public/retro_stats.svg" width="100%" alt="Hero Character Stats Status Board" />
@@ -26,7 +26,7 @@
 
 ---
 
-### 🛡️ HERO EQUIPMENT & SKILLS INVENTORY (STANDALONE SVG)
+### 🛡️ HERO EQUIPMENT & SKILLS INVENTORY
 
 <div align="center">
   <img src="public/skills.svg" width="100%" alt="Hero Equipment &amp; Skills Inventory" />
@@ -34,7 +34,7 @@
 
 ---
 
-### 🍄 CURRENT ADVENTURE QUESTS (Projects)
+### 🍄 CURRENT ADVENTURE QUESTS
 
 <div align="center">
   <img src="public/adventure_quests.svg" width="100%" alt="Current Adventure Quests" />
