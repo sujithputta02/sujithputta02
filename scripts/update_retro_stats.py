@@ -5,9 +5,14 @@ import os
 
 def fetch_github_stats(username):
     try:
+        token = os.environ.get('GITHUB_TOKEN')
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        if token:
+            headers['Authorization'] = f'token {token}'
+
         # Fetch public user stats
         user_url = f"https://api.github.com/users/{username}"
-        req = urllib.request.Request(user_url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(user_url, headers=headers)
         with urllib.request.urlopen(req) as response:
             user_data = json.loads(response.read().decode('utf-8'))
             
@@ -16,7 +21,7 @@ def fetch_github_stats(username):
         
         # Fetch repos for stargazers count
         repos_url = f"https://api.github.com/users/{username}/repos?per_page=100"
-        req_repos = urllib.request.Request(repos_url, headers={'User-Agent': 'Mozilla/5.0'})
+        req_repos = urllib.request.Request(repos_url, headers=headers)
         with urllib.request.urlopen(req_repos) as response:
             repos_data = json.loads(response.read().decode('utf-8'))
             
@@ -24,18 +29,17 @@ def fetch_github_stats(username):
         
         # Fetch search commits Author count
         commits_url = f"https://api.github.com/search/commits?q=author:{username}"
-        req_commits = urllib.request.Request(commits_url, headers={
-            'User-Agent': 'Mozilla/5.0',
-            'Accept': 'application/vnd.github.cloak-preview'
-        })
+        commits_headers = headers.copy()
+        commits_headers['Accept'] = 'application/vnd.github.cloak-preview'
+        req_commits = urllib.request.Request(commits_url, headers=commits_headers)
         commits = 0
         try:
             with urllib.request.urlopen(req_commits) as response:
                 commits_data = json.loads(response.read().decode('utf-8'))
                 commits = commits_data.get('total_count', 0)
-        except Exception:
-            # Fallback if search fails or rate limits
-            commits = 634
+        except Exception as search_err:
+            print("Commits search failed, using fallback:", search_err)
+            commits = 640
             
         return {
             'repos': public_repos,
@@ -56,8 +60,8 @@ def update_svg():
         
     print("Fetched Stats:", stats)
     
-    # Update mario_stats.svg
-    svg_path = "public/mario_stats.svg"
+    # Update retro_stats.svg
+    svg_path = "public/retro_stats.svg"
     if os.path.exists(svg_path):
         with open(svg_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -70,7 +74,7 @@ def update_svg():
         
         with open(svg_path, 'w', encoding='utf-8') as f:
             f.write(content)
-        print("Updated public/mario_stats.svg with latest stats!")
+        print("Updated public/retro_stats.svg with latest stats!")
         
     # Update header.svg HUD values (optional contributions count)
     header_path = "public/header.svg"
@@ -78,12 +82,12 @@ def update_svg():
         with open(header_path, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        # Update MARIO score (formatted to 6 digits)
+        # Update SUJITH score (formatted to 6 digits)
         score_str = f'{stats["commits"]:06d}'
-        content = re.sub(r'class="hud-value">000814</', f'class="hud-value">{score_str}</', content)
+        content = re.sub(r'(<text x="50" y="45" class="hud-value">)[^<]+(</text>)', rf'\1{score_str}\2', content)
         # Update coins
         coins_str = f'x{stats["stars"]:02d}'
-        content = re.sub(r'class="hud-value">x099</', f'class="hud-value">{coins_str}</', content)
+        content = re.sub(r'(<text x="280" y="45" class="hud-value">)[^<]+(</text>)', rf'\1{coins_str}\2', content)
         
         with open(header_path, 'w', encoding='utf-8') as f:
             f.write(content)

@@ -10,7 +10,7 @@
       
       .bg-sky { fill: #5c94fc; }
       
-      /* Mario Text HUD */
+      /* Retro Text HUD */
       .hud-label {
         font-family: 'Press Start 2P', monospace;
         font-size: 10px;
@@ -39,7 +39,7 @@
       .q-block { fill: #fc9838; stroke: #000000; stroke-width: 1.5; animation: qBlockPulse 1s infinite steps(4); }
       .q-text { font-family: 'Press Start 2P', monospace; font-size: 12px; fill: #ffffff; font-weight: bold; }
       
-      /* Title text in colorful Mario logo style */
+      /* Title text in colorful retro logo style */
       .title-text {
         font-family: 'Press Start 2P', monospace;
         font-size: 30px;
@@ -58,11 +58,11 @@
       }
       
       /* Characters */
-      .mario-character {
-        animation: marioRunAndJump 10s infinite linear;
+      .hero-character {
+        animation: heroRunAndJump 10s infinite linear;
       }
-      .goomba-character {
-        animation: goombaWalk 10s infinite linear;
+      .minion-character {
+        animation: minionWalk 10s infinite linear;
       }
       .coin-item {
         animation: coinPop 10s infinite linear;
@@ -88,16 +88,16 @@
         50% { transform: translateY(-6px); }
       }
 
-      @keyframes marioRunAndJump {
+      @keyframes heroRunAndJump {
         /* Spawn and run left-to-right */
         0% { transform: translate(-40px, 192px) scaleX(1); }
         28% { transform: translate(320px, 192px) scaleX(1); }
         /* Jump to hit the first question block */
         31% { transform: translate(380px, 130px) scaleX(1); }
         34% { transform: translate(430px, 192px) scaleX(1); }
-        /* Run towards Goomba */
+        /* Run towards Minion */
         46% { transform: translate(550px, 192px) scaleX(1); }
-        /* Jump over Goomba */
+        /* Jump over Minion */
         49% { transform: translate(610px, 110px) scaleX(1); }
         52% { transform: translate(670px, 192px) scaleX(1); }
         /* Run off screen right */
@@ -109,10 +109,10 @@
         100% { transform: translate(-40px, 192px) scaleX(1); }
       }
 
-      @keyframes goombaWalk {
+      @keyframes minionWalk {
         0% { transform: translate(880px, 200px) scaleX(1); }
         30% { transform: translate(580px, 200px) scaleX(1); }
-        /* Mario jumps over Goomba here */
+        /* Hero jumps over Minion here */
         60% { transform: translate(280px, 200px) scaleX(1); }
         90% { transform: translate(-50px, 200px) scaleX(1); }
         91% { transform: translate(-50px, 200px) scaleX(-1); }
@@ -140,7 +140,7 @@
 
   <!-- HUD Stats Selection -->
   <text x="50" y="30" class="hud-label">SUJITH</text>
-  <text x="50" y="45" class="hud-value">000639</text>
+  @0640</text>
 
   <text x="280" y="30" class="hud-label">COINS</text>
   <text x="280" y="45" class="hud-value">x06</text>
@@ -151,7 +151,7 @@
   <text x="730" y="30" class="hud-label">TIME</text>
   <text x="730" y="45" class="hud-value">2026</text>
 
-  <!-- Main Colorful Animated Mario-style Title -->
+  <!-- Main Colorful Animated Retro-style Title -->
   <text x="425" y="102" class="title-text" text-anchor="middle" stroke="#000000" stroke-width="4" paint-order="stroke fill" font-weight="bold">
     <tspan class="letter-bounce" fill="#e52521">S</tspan>
     <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.1s">U</tspan>
@@ -218,8 +218,8 @@
     <line x1="10" y1="9" x2="10" y2="21" stroke="#fc9838" stroke-width="1.5"/>
   </g>
 
-  <!-- Goomba Character -->
-  <g class="goomba-character">
+  <!-- Minion Character -->
+  <g class="minion-character">
     <path d="M 6 16 C 6 4, 26 4, 26 16 Z" fill="#a85400" stroke="#000" stroke-width="1.5"/>
     <path d="M 10 16 L 22 16 L 22 22 L 10 22 Z" fill="#fce4a0" stroke="#000" stroke-width="1.5"/>
     <ellipse cx="9" cy="22" rx="4" ry="3" fill="#000000"/>
@@ -228,8 +228,8 @@
     <rect x="18" y="9" width="2" height="5" fill="#000"/>
   </g>
 
-  <!-- Mario Character -->
-  <g class="mario-character">
+  <!-- Hero Character -->
+  <g class="hero-character">
     <path d="M 6 0 h 12 v 4 h -12 Z" fill="#ff0000"/>
     <path d="M 4 2 h 18 v 2 h -18 Z" fill="#ff0000"/>
     <path d="M 6 4 h 6 v 2 h -6 Z" fill="#a85400"/>
