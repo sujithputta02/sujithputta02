@@ -79,7 +79,7 @@
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=fce4a0&quoteColor=000000&authorColor=b83c18&symbolColor=b83c18&borderColor=b83c18" />
 
 <br/><br/>
 
