@@ -84,10 +84,10 @@ def update_svg():
             
         # Update SUJITH score (formatted to 6 digits)
         score_str = f'{stats["commits"]:06d}'
-        content = re.sub(r'(<text x="50" y="45" class="hud-value">)[^<]+(</text>)', rf'\1{score_str}\2', content)
+        content = re.sub(r'(<text x="50" y="45" class="hud-value">)[^<]+(</text>)', rf'\g<1>{score_str}\g<2>', content)
         # Update coins
         coins_str = f'x{stats["stars"]:02d}'
-        content = re.sub(r'(<text x="280" y="45" class="hud-value">)[^<]+(</text>)', rf'\1{coins_str}\2', content)
+        content = re.sub(r'(<text x="280" y="45" class="hud-value">)[^<]+(</text>)', rf'\g<1>{coins_str}\g<2>', content)
         
         with open(header_path, 'w', encoding='utf-8') as f:
             f.write(content)
