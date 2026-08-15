@@ -104,7 +104,7 @@
       <rect x="5" y="8" width="6" height="3" fill="#fce4a0"/>
     </g>
     <text x="45" y="62" class="text-label">COMMITS STOMPED:</text>
-    <text x="235" y="62" class="text-val" id="val-commits">850</text>
+    <text x="235" y="62" class="text-val" id="val-commits">851</text>
 
     <!-- Stat Item: Stars (Gold Coins) -->
     <g transform="translate(20, 92)" class="block-icon-delay1">
@@ -127,7 +127,7 @@
       <circle cx="8" cy="11" r="4" fill="#ffcca0" stroke="#000" stroke-width="1"/>
     </g>
     <text x="45" y="182" class="text-label">NPC ALLIES:</text>
-    <text x="235" y="182" class="text-val" id="val-followers">13</text>
+    <text x="235" y="182" class="text-val" id="val-followers">14</text>
   </g>
 
   <!-- PANEL 2: ADVENTURE SKILLS / POWER-UPS -->
