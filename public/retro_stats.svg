@@ -119,7 +119,7 @@
       <rect x="3" y="1" width="10" height="13" fill="#00a800" stroke="#000" stroke-width="1"/>
     </g>
     <text x="45" y="142" class="text-label">LEVELS CLEARED:</text>
-    <text x="235" y="142" class="text-val" id="val-repos">36</text>
+    <text x="235" y="142" class="text-val" id="val-repos">37</text>
 
     <!-- Stat Item: Followers (Toad/NPC icon) -->
     <g transform="translate(20, 172)" class="block-icon-delay3">
