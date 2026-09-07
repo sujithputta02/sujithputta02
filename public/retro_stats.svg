@@ -112,7 +112,7 @@
       <line x1="8" y1="4" x2="8" y2="12" stroke="#fc9838" stroke-width="1"/>
     </g>
     <text x="45" y="102" class="text-label">COINS COLLECTED:</text>
-    <text x="235" y="102" class="text-val" id="val-stars">9</text>
+    <text x="235" y="102" class="text-val" id="val-stars">10</text>
 
     <!-- Stat Item: Repos (Green Pipe/Flag) -->
     <g transform="translate(20, 132)" class="block-icon-delay2">

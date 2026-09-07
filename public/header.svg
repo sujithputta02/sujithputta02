@@ -143,7 +143,7 @@
   <text x="50" y="45" class="hud-value">000909</text>
 
   <text x="280" y="30" class="hud-label">COINS</text>
-  <text x="280" y="45" class="hud-value">x09</text>
+  <text x="280" y="45" class="hud-value">x10</text>
 
   <text x="510" y="30" class="hud-label">WORLD</text>
   <text x="510" y="45" class="hud-value">1-1</text>
