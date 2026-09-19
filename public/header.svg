@@ -1,258 +1,365 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
       @font-face {
-      font-family: 'Press Start 2P';
-      src: url(data:font/woff2;charset=utf-8;base64,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) format('woff2');
-      font-weight: normal;
-      font-style: normal;
-    }
-      
+  font-family: 'Press Start 2P';
+  src: url(data:font/woff2;charset=utf-8;base64,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) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
       .bg-sky { fill: #5c94fc; }
-      
-      /* Retro Text HUD */
+
+      /* HUD Text */
       .hud-label {
-        font-family: 'Press Start 2P', monospace;
-        font-size: 10px;
-        fill: #ffffff;
-      }
-      .hud-value {
-        font-family: 'Press Start 2P', monospace;
-        font-size: 10px;
-        fill: #ffffff;
-      }
-      
-      /* Ground block pattern */
-      .ground-top { fill: #fc9838; }
-      .ground-side { fill: #b83c18; }
-      .ground-shadow { fill: #000000; opacity: 0.3; }
-      
-      /* Clouds and Bushes */
-      .cloud { fill: #ffffff; }
-      .bush-dark { fill: #008000; }
-      .bush-light { fill: #00a800; }
-      
-      /* Bricks and Question Blocks */
-      .brick-base { fill: #b83c18; stroke: #000000; stroke-width: 1.5; }
-      .brick-line { fill: none; stroke: #000000; stroke-width: 1.5; }
-      
-      .q-block { fill: #fc9838; stroke: #000000; stroke-width: 1.5; animation: qBlockPulse 1s infinite steps(4); }
-      .q-text { font-family: 'Press Start 2P', monospace; font-size: 12px; fill: #ffffff; font-weight: bold; }
-      
-      /* Title text in colorful retro logo style */
-      .title-text {
-        font-family: 'Press Start 2P', monospace;
-        font-size: 30px;
-      }
-      
-      .letter-bounce {
-        display: inline-block;
-        animation: letterBob 2s infinite ease-in-out;
-      }
-      
-      .subtitle-text {
         font-family: 'Press Start 2P', monospace;
         font-size: 10px;
         fill: #ffffff;
         letter-spacing: 1px;
       }
-      
-      /* Characters */
-      .hero-character {
-        animation: heroRunAndJump 10s infinite linear;
-      }
-      .minion-character {
-        animation: minionWalk 10s infinite linear;
-      }
-      .coin-item {
-        animation: coinPop 10s infinite linear;
-      }
-      
-      /* Cloud scrolling */
-      .cloud-bg-1 { animation: cloudDrift 60s infinite linear; }
-      .cloud-bg-2 { animation: cloudDrift 90s infinite linear -30s; }
-
-      /* Keyframe Animations */
-      @keyframes qBlockPulse {
-        0%, 100% { fill: #fc9838; }
-        50% { fill: #e45c10; }
-      }
-      
-      @keyframes cloudDrift {
-        0% { transform: translateX(850px); }
-        100% { transform: translateX(-200px); }
+      .hud-val {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 10px;
+        fill: #fcf800;
+        font-weight: bold;
+        letter-spacing: 1px;
       }
 
-      @keyframes letterBob {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
+      /* Title Text */
+      .mario-title {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 2px;
       }
 
-      @keyframes heroRunAndJump {
-        /* Spawn and run left-to-right */
-        0% { transform: translate(-40px, 192px) scaleX(1); }
-        28% { transform: translate(320px, 192px) scaleX(1); }
-        /* Jump to hit the first question block */
-        31% { transform: translate(380px, 130px) scaleX(1); }
-        34% { transform: translate(430px, 192px) scaleX(1); }
-        /* Run towards Minion */
-        46% { transform: translate(550px, 192px) scaleX(1); }
-        /* Jump over Minion */
-        49% { transform: translate(610px, 110px) scaleX(1); }
-        52% { transform: translate(670px, 192px) scaleX(1); }
-        /* Run off screen right */
-        60% { transform: translate(900px, 192px) scaleX(1); }
-        61% { transform: translate(900px, 192px) scaleX(-1); }
-        /* Run back right-to-left */
-        62% { transform: translate(850px, 192px) scaleX(-1); }
-        98% { transform: translate(-40px, 192px) scaleX(-1); }
-        100% { transform: translate(-40px, 192px) scaleX(1); }
+      .mario-subtitle {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 8.5px;
+        fill: #ffffff;
+        letter-spacing: 1px;
       }
 
-      @keyframes minionWalk {
-        0% { transform: translate(880px, 200px) scaleX(1); }
-        30% { transform: translate(580px, 200px) scaleX(1); }
-        /* Hero jumps over Minion here */
-        60% { transform: translate(280px, 200px) scaleX(1); }
-        90% { transform: translate(-50px, 200px) scaleX(1); }
-        91% { transform: translate(-50px, 200px) scaleX(-1); }
-        100% { transform: translate(880px, 200px) scaleX(-1); }
+      /* Ground Styling */
+      .ground-top-strip { fill: #fc9838; }
+      .ground-brick-body { fill: #b83c18; }
+
+      /* Question Block and Coin */
+      .q-block-box {
+        animation: qBlockBump 12s infinite ease-in-out;
+      }
+      .coin-burst {
+        animation: coinBurstPop 12s infinite ease-out;
+      }
+      .score-popup {
+        animation: scoreFloat 12s infinite ease-out;
       }
 
-      @keyframes coinPop {
-        0%, 30.5% { transform: translate(394px, 140px); opacity: 0; }
-        31% { transform: translate(394px, 80px); opacity: 1; }
-        33%, 100% { transform: translate(394px, 140px); opacity: 0; }
+      /* Mario Gravity Physics and Walk Cycle */
+      /* Ground is at y=232. Mario is 32px tall. On-ground y is exactly 200px! */
+      .mario-physics {
+        animation: marioRunAndJumpPhysics 12s infinite linear;
+      }
+
+      /* Goomba walks strictly on ground: height=20px, ground y=232 -> y=212px */
+      .goomba-walker {
+        animation: goombaPatrol 12s infinite linear;
+      }
+
+      /* Piranha Plant */
+      .piranha-anim {
+        animation: piranhaLurking 4s infinite ease-in-out;
+      }
+
+      /* Clouds Parallax */
+      .cloud-drift-slow { animation: driftClouds 70s infinite linear; }
+      .cloud-drift-fast { animation: driftClouds 45s infinite linear -20s; }
+
+      /* Keyframes */
+      @keyframes driftClouds {
+        0% { transform: translateX(860px); }
+        100% { transform: translateX(-240px); }
+      }
+
+      @keyframes piranhaLurking {
+        0%, 25% { transform: translateY(32px); }
+        40%, 75% { transform: translateY(0px); }
+        90%, 100% { transform: translateY(32px); }
+      }
+
+      /* Real Mario Gravity Arc: Ground=200px. Peak Jump=140px. */
+      @keyframes marioRunAndJumpPhysics {
+        /* 1. Run right along the ground */
+        0% { transform: translate(-40px, 200px) scaleX(1); }
+        24% { transform: translate(320px, 200px) scaleX(1); }
+        /* 2. Jump up with gravity arc to punch question block at x=375 */
+        25% { transform: translate(335px, 182px) scaleX(1); }
+        26% { transform: translate(355px, 155px) scaleX(1); }
+        27.5% { transform: translate(375px, 140px) scaleX(1); } /* Apex hit */
+        29% { transform: translate(395px, 162px) scaleX(1); }
+        30% { transform: translate(410px, 200px) scaleX(1); } /* Touchdown */
+        /* 3. Run right toward Goomba */
+        31% { transform: translate(425px, 200px) scaleX(1); }
+        44% { transform: translate(525px, 200px) scaleX(1); }
+        /* 4. Jump over Goomba (Apex 145px) */
+        45% { transform: translate(540px, 180px) scaleX(1); }
+        47% { transform: translate(575px, 145px) scaleX(1); }
+        49% { transform: translate(610px, 180px) scaleX(1); }
+        50% { transform: translate(625px, 200px) scaleX(1); } /* Touchdown */
+        /* 5. Run to Castle Flagpole */
+        51% { transform: translate(640px, 200px) scaleX(1); }
+        63% { transform: translate(750px, 200px) scaleX(1); }
+        /* 6. Wait at flagpole / celebrate */
+        66% { transform: translate(750px, 200px) scaleX(1); }
+        67% { transform: translate(750px, 200px) scaleX(-1); }
+        /* 7. Run back left strictly along the ground */
+        68% { transform: translate(730px, 200px) scaleX(-1); }
+        98% { transform: translate(-40px, 200px) scaleX(-1); }
+        100% { transform: translate(-40px, 200px) scaleX(1); }
+      }
+
+      /* Goomba Patrols strictly on ground y=212 between castle and pipe */
+      @keyframes goombaPatrol {
+        0% { transform: translate(700px, 212px) scaleX(1); }
+        45% { transform: translate(220px, 212px) scaleX(1); }
+        46% { transform: translate(220px, 212px) scaleX(-1); }
+        95% { transform: translate(700px, 212px) scaleX(-1); }
+        96% { transform: translate(700px, 212px) scaleX(1); }
+        100% { transform: translate(700px, 212px) scaleX(1); }
+      }
+
+      /* Block bumps when hit at 27.5% */
+      @keyframes qBlockBump {
+        0%, 27% { transform: translate(365px, 132px); }
+        27.5% { transform: translate(365px, 126px); }
+        28.2% { transform: translate(365px, 132px); }
+        100% { transform: translate(365px, 132px); }
+      }
+
+      /* Coin Pops out of block */
+      @keyframes coinBurstPop {
+        0%, 27% { transform: translate(378px, 130px); opacity: 0; }
+        27.5% { opacity: 1; }
+        28.5% { transform: translate(378px, 75px) scale(1.3); opacity: 1; }
+        29.5%, 100% { transform: translate(378px, 50px); opacity: 0; }
+      }
+
+      @keyframes scoreFloat {
+        0%, 27.5% { transform: translate(370px, 120px); opacity: 0; }
+        28.5% { opacity: 1; transform: translate(370px, 68px); }
+        29.8%, 100% { opacity: 0; transform: translate(370px, 50px); }
       }
     </style>
+
+    <clipPath id="pipe-clip">
+      <rect x="0" y="-35" width="56" height="42"/>
+    </clipPath>
   </defs>
 
   <!-- Sky Background -->
   <rect width="850" height="280" class="bg-sky"/>
 
-  <!-- Clouds -->
-  <g class="cloud-bg-1" transform="translate(100, 40)">
-    <path d="M120,20 C110,20 100,28 100,38 C90,38 80,46 80,56 C80,66 90,74 100,74 L160,74 C170,74 180,66 180,56 C180,46 170,38 160,38 C160,28 150,20 140,20 Z" class="cloud" opacity="0.8"/>
+  <!-- Pixel Clouds with Smiling Faces -->
+  <g class="cloud-drift-slow" transform="translate(60, 20)">
+    <path d="M 30 18 Q 45 0 60 18 Q 75 0 90 18 L 90 32 L 30 32 Z" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="60" cy="22" rx="30" ry="12" fill="#ffffff"/>
+    <rect x="52" y="16" width="2" height="6" fill="#000000" opacity="0.4"/>
+    <rect x="66" y="16" width="2" height="6" fill="#000000" opacity="0.4"/>
   </g>
-  <g class="cloud-bg-2" transform="translate(500, 60)">
-    <path d="M60,10 C55,10 50,14 50,19 C45,19 40,23 40,28 C40,33 45,37 50,37 L80,37 C85,37 90,33 90,28 C90,23 85,19 80,19 C80,14 75,10 70,10 Z" class="cloud" opacity="0.6"/>
-  </g>
-
-  <!-- HUD Stats Selection -->
-  <text x="50" y="30" class="hud-label">SUJITH</text>
-  <text x="50" y="45" class="hud-value">000913</text>
-
-  <text x="280" y="30" class="hud-label">COINS</text>
-  <text x="280" y="45" class="hud-value">x10</text>
-
-  <text x="510" y="30" class="hud-label">WORLD</text>
-  <text x="510" y="45" class="hud-value">1-1</text>
-
-  <text x="730" y="30" class="hud-label">TIME</text>
-  <text x="730" y="45" class="hud-value">2026</text>
-
-  <!-- Main Colorful Animated Retro-style Title -->
-  <text x="425" y="102" class="title-text" text-anchor="middle" stroke="#000000" stroke-width="4" paint-order="stroke fill" font-weight="bold">
-    <tspan class="letter-bounce" fill="#e52521">S</tspan>
-    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.1s">U</tspan>
-    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 0.2s">J</tspan>
-    <tspan class="letter-bounce" fill="#43b047" style="animation-delay: 0.3s">I</tspan>
-    <tspan class="letter-bounce" fill="#e52521" style="animation-delay: 0.4s">T</tspan>
-    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.5s">H</tspan>
-    <tspan class="letter-bounce"> </tspan>
-    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 0.6s">P</tspan>
-    <tspan class="letter-bounce" fill="#43b047" style="animation-delay: 0.7s">U</tspan>
-    <tspan class="letter-bounce" fill="#e52521" style="animation-delay: 0.8s">T</tspan>
-    <tspan class="letter-bounce" fill="#f2a900" style="animation-delay: 0.9s">T</tspan>
-    <tspan class="letter-bounce" fill="#002fbe" style="animation-delay: 1.0s">A</tspan>
-  </text>
-  
-  <text x="425" y="125" class="subtitle-text" text-anchor="middle" stroke="#000000" stroke-width="2.5" paint-order="stroke fill">> FULL-STACK DEVELOPER &amp; AI SPECIALIST &lt;</text>
-
-  <!-- Level Bricks & Pipes -->
-  <!-- Green Pipe -->
-  <g transform="translate(150, 160)">
-    <rect x="0" y="20" width="48" height="60" fill="#00a800" stroke="#000" stroke-width="2"/>
-    <rect x="-4" y="0" width="56" height="20" fill="#00f800" stroke="#000" stroke-width="2"/>
-    <!-- Highlights -->
-    <rect x="6" y="20" width="6" height="60" fill="#00f800"/>
-    <rect x="2" y="2" width="6" height="16" fill="#ffffff"/>
+  <g class="cloud-drift-fast" transform="translate(480, 35)">
+    <path d="M 20 12 Q 32 0 45 12 Q 58 0 70 12 L 70 24 L 20 24 Z" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="45" cy="16" rx="25" ry="9" fill="#ffffff"/>
   </g>
 
-  <!-- Floating Bricks & Question Block -->
-  <!-- Brick 1 -->
-  <g transform="translate(350, 130)">
-    <rect width="32" height="32" class="brick-base"/>
-    <line x1="0" y1="10" x2="32" y2="10" class="brick-line"/>
-    <line x1="0" y1="21" x2="32" y2="21" class="brick-line"/>
-    <line x1="10" y1="0" x2="10" y2="10" class="brick-line"/>
-    <line x1="22" y1="0" x2="22" y2="10" class="brick-line"/>
-    <line x1="5" y1="10" x2="5" y2="21" class="brick-line"/>
-    <line x1="16" y1="10" x2="16" y2="21" class="brick-line"/>
-    <line x1="27" y1="10" x2="27" y2="21" class="brick-line"/>
-  </g>
-  <!-- Question Block -->
-  <g transform="translate(382, 130)" class="q-block-container">
-    <rect width="32" height="32" class="q-block"/>
-    <text x="16" y="22" class="q-text" text-anchor="middle">?</text>
-    <circle cx="5" cy="5" r="1" fill="#000000"/>
-    <circle cx="27" cy="5" r="1" fill="#000000"/>
-    <circle cx="5" cy="27" r="1" fill="#000000"/>
-    <circle cx="27" cy="27" r="1" fill="#000000"/>
-  </g>
-  <!-- Brick 2 -->
-  <g transform="translate(414, 130)">
-    <rect width="32" height="32" class="brick-base"/>
-    <line x1="0" y1="10" x2="32" y2="10" class="brick-line"/>
-    <line x1="0" y1="21" x2="32" y2="21" class="brick-line"/>
-    <line x1="10" y1="0" x2="10" y2="10" class="brick-line"/>
-    <line x1="22" y1="0" x2="22" y2="10" class="brick-line"/>
-    <line x1="5" y1="10" x2="5" y2="21" class="brick-line"/>
-    <line x1="16" y1="10" x2="16" y2="21" class="brick-line"/>
-    <line x1="27" y1="10" x2="27" y2="21" class="brick-line"/>
+  <!-- Rolling Green Hills in Background (Classic 1-1 World) -->
+  <g transform="translate(0, 0)">
+    <!-- Big Green Hill Left -->
+    <path d="M -20 232 C 40 160, 100 160, 160 232 Z" fill="#00a800" stroke="#000000" stroke-width="2"/>
+    <path d="M 20 232 C 55 180, 85 180, 120 232 Z" fill="#008000"/>
+    <circle cx="70" cy="182" r="3" fill="#fcf800"/>
+    <circle cx="70" cy="182" r="1.5" fill="#000000"/>
+
+    <!-- Rolling Green Hill Right -->
+    <path d="M 640 232 C 700 165, 750 165, 810 232 Z" fill="#00a800" stroke="#000000" stroke-width="2"/>
+    <path d="M 675 232 C 715 185, 745 185, 785 232 Z" fill="#008000"/>
+    <circle cx="730" cy="185" r="3" fill="#fcf800"/>
+    <circle cx="730" cy="185" r="1.5" fill="#000000"/>
+
+    <!-- Scalloped Bushes near Pipe -->
+    <g transform="translate(60, 208)">
+      <circle cx="12" cy="16" r="12" fill="#00a800" stroke="#000" stroke-width="1.5"/>
+      <circle cx="28" cy="12" r="14" fill="#00f800" stroke="#000" stroke-width="1.5"/>
+      <circle cx="44" cy="16" r="12" fill="#00a800" stroke="#000" stroke-width="1.5"/>
+      <rect x="0" y="16" width="56" height="8" fill="#00a800"/>
+    </g>
   </g>
 
-  <!-- Jumping Coin Item -->
-  <g class="coin-item">
-    <ellipse cx="10" cy="15" rx="5" ry="10" fill="#fcf800" stroke="#000" stroke-width="1.5"/>
-    <line x1="10" y1="9" x2="10" y2="21" stroke="#fc9838" stroke-width="1.5"/>
+  <!-- TOP HUD BAR (Iconic NES Arcade) -->
+  <g transform="translate(45, 20)">
+    <text x="0" y="0" class="hud-label">MARIO / SUJITH</text>
+    <text x="0" y="16" class="hud-val">000915</text>
+
+    <!-- Gold Coin Icon in HUD -->
+    <g transform="translate(230, -6)">
+      <ellipse cx="6" cy="12" rx="4" ry="7" fill="#fcf800" stroke="#000000" stroke-width="1"/>
+      <line x1="6" y1="8" x2="6" y2="16" stroke="#fc9838" stroke-width="1"/>
+    </g>
+    <text x="245" y="0" class="hud-label">COINS</text>
+    <text x="245" y="16" class="hud-val">x10</text>
+
+    <text x="470" y="0" class="hud-label">WORLD</text>
+    <text x="470" y="16" class="hud-val">1-39</text>
+
+    <text x="660" y="0" class="hud-label">TIME</text>
+    <text x="660" y="16" class="hud-val">2026</text>
   </g>
 
-  <!-- Minion Character -->
-  <g class="minion-character">
-    <path d="M 6 16 C 6 4, 26 4, 26 16 Z" fill="#a85400" stroke="#000" stroke-width="1.5"/>
-    <path d="M 10 16 L 22 16 L 22 22 L 10 22 Z" fill="#fce4a0" stroke="#000" stroke-width="1.5"/>
-    <ellipse cx="9" cy="22" rx="4" ry="3" fill="#000000"/>
-    <ellipse cx="23" cy="22" rx="4" ry="3" fill="#000000"/>
-    <rect x="12" y="9" width="2" height="5" fill="#000"/>
-    <rect x="18" y="9" width="2" height="5" fill="#000"/>
+  <!-- TITLE: SUJITH PUTTA (CLEAN VIBRANT LETTERS, ZERO SHADOW, NO BLACK LAYER) -->
+  <g transform="translate(425, 78)">
+    <text x="0" y="0" class="mario-title" text-anchor="middle">
+      <tspan fill="#e52521">S</tspan><tspan fill="#f2a900">U</tspan><tspan fill="#002fbe">J</tspan><tspan fill="#43b047">I</tspan><tspan fill="#e52521">T</tspan><tspan fill="#f2a900">H</tspan>
+      <tspan fill="#ffffff"> </tspan>
+      <tspan fill="#002fbe">P</tspan><tspan fill="#43b047">U</tspan><tspan fill="#e52521">T</tspan><tspan fill="#f2a900">T</tspan><tspan fill="#002fbe">A</tspan>
+    </text>
   </g>
 
-  <!-- Hero Character -->
-  <g class="hero-character">
-    <path d="M 6 0 h 12 v 4 h -12 Z" fill="#ff0000"/>
-    <path d="M 4 2 h 18 v 2 h -18 Z" fill="#ff0000"/>
-    <path d="M 6 4 h 6 v 2 h -6 Z" fill="#a85400"/>
-    <path d="M 12 4 h 6 v 2 h -6 Z" fill="#ffcca0"/>
-    <rect x="18" y="4" width="2" height="4" fill="#000000"/>
-    <path d="M 6 6 h 2 v 4 h -2 Z" fill="#a85400"/>
-    <path d="M 8 6 h 12 v 6 h -12 Z" fill="#ffcca0"/>
-    <path d="M 14 10 h 6 v 2 h -6 Z" fill="#a85400"/>
-    <path d="M 4 12 h 16 v 10 h -16 Z" fill="#ff0000"/>
-    <path d="M 8 12 h 8 v 12 h -8 Z" fill="#0000d8"/>
-    <circle cx="10" cy="18" r="1.5" fill="#fcf800"/>
-    <circle cx="14" cy="18" r="1.5" fill="#fcf800"/>
-    <circle cx="2" cy="17" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
-    <circle cx="22" cy="17" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
-    <rect x="6" y="24" width="5" height="6" fill="#a85400" stroke="#000" stroke-width="1.5"/>
-    <rect x="13" y="24" width="5" height="6" fill="#a85400" stroke="#000" stroke-width="1.5"/>
+  <!-- SUBTITLE CARTRIDGE BANNER (Properly spaced above bricks!) -->
+  <g transform="translate(195, 96)">
+    <rect width="460" height="22" rx="4" fill="#000000" stroke="#fc9838" stroke-width="2"/>
+    <text x="230" y="15" class="mario-subtitle" text-anchor="middle">> FULL-STACK DEVELOPER &amp; AI SPECIALIST &lt;</text>
   </g>
 
-  <!-- Ground Terrain -->
-  <g transform="translate(0, 240)">
-    <path d="M 0 0 h 850 v 8 h -850 Z" class="ground-top"/>
-    <path d="M 0 8 h 850 v 32 h -850 Z" class="ground-side"/>
-    <path d="M 0 8 L 850 8 M 0 18 L 850 18 M 0 28 L 850 28 M 0 38 L 850 38" stroke="#000" stroke-width="1" stroke-opacity="0.4"/>
-    <path d="M 20 8 v 32 M 40 8 v 32 M 60 8 v 32 M 80 8 v 32 M 100 8 v 32 M 120 8 v 32 M 140 8 v 32 M 160 8 v 32 M 180 8 v 32 M 200 8 v 32 M 220 8 v 32 M 240 8 v 32 M 260 8 v 32 M 280 8 v 32 M 300 8 v 32 M 320 8 v 32 M 340 8 v 32 M 360 8 v 32 M 380 8 v 32 M 400 8 v 32 M 420 8 v 32 M 440 8 v 32 M 460 8 v 32 M 480 8 v 32 M 500 8 v 32 M 520 8 v 32 M 540 8 v 32 M 560 8 v 32 M 580 8 v 32 M 600 8 v 32 M 620 8 v 32 M 640 8 v 32 M 660 8 v 32 M 680 8 v 32 M 700 8 v 32 M 720 8 v 32 M 740 8 v 32 M 760 8 v 32 M 780 8 v 32 M 800 8 v 32 M 820 8 v 32 M 840 8 v 32" stroke="#000" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- FLOATING BRICKS & QUESTION BLOCK -->
+  <!-- Left Brick -->
+  <g transform="translate(335, 132)">
+    <rect width="30" height="30" fill="#b83c18" stroke="#000000" stroke-width="2"/>
+    <line x1="0" y1="10" x2="30" y2="10" stroke="#000000" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="30" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="15" y1="0" x2="15" y2="10" stroke="#000000" stroke-width="1.5"/>
+    <line x1="7" y1="10" x2="7" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="22" y1="10" x2="22" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="15" y1="20" x2="15" y2="30" stroke="#000000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Bumping Question Block -->
+  <g class="q-block-box">
+    <rect width="30" height="30" fill="#fc9838" stroke="#000000" stroke-width="2"/>
+    <text x="15" y="21" font-family="'Press Start 2P', monospace" font-size="12" fill="#ffffff" font-weight="bold" text-anchor="middle">?</text>
+    <circle cx="4" cy="4" r="1" fill="#000000"/>
+    <circle cx="26" cy="4" r="1" fill="#000000"/>
+    <circle cx="4" cy="26" r="1" fill="#000000"/>
+    <circle cx="26" cy="26" r="1" fill="#000000"/>
+  </g>
+
+  <!-- Right Brick -->
+  <g transform="translate(395, 132)">
+    <rect width="30" height="30" fill="#b83c18" stroke="#000000" stroke-width="2"/>
+    <line x1="0" y1="10" x2="30" y2="10" stroke="#000000" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="30" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="15" y1="0" x2="15" y2="10" stroke="#000000" stroke-width="1.5"/>
+    <line x1="7" y1="10" x2="7" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="22" y1="10" x2="22" y2="20" stroke="#000000" stroke-width="1.5"/>
+    <line x1="15" y1="20" x2="15" y2="30" stroke="#000000" stroke-width="1.5"/>
+  </g>
+
+  <!-- POPPING COIN & SCORE -->
+  <g class="coin-burst">
+    <ellipse cx="6" cy="10" rx="5" ry="8" fill="#fcf800" stroke="#000000" stroke-width="1.5"/>
+    <line x1="6" y1="5" x2="6" y2="15" stroke="#fc9838" stroke-width="1.5"/>
+  </g>
+  <g class="score-popup">
+    <text x="0" y="0" font-family="'Press Start 2P', monospace" font-size="8" fill="#ffffff" stroke="#000" stroke-width="1.5" paint-order="stroke fill" font-weight="bold">+200</text>
+  </g>
+
+  <!-- GREEN WARP PIPE (Grounded firmly at y=232) -->
+  <g transform="translate(140, 172)">
+    <!-- Piranha Plant clipped inside pipe -->
+    <g clip-path="url(#pipe-clip)">
+      <g class="piranha-anim" transform="translate(11, 0)">
+        <rect x="10" y="8" width="6" height="24" fill="#00a800" stroke="#000" stroke-width="1"/>
+        <path d="M 6 18 Q 0 16 2 12 Q 8 14 10 18 Z" fill="#00a800"/>
+        <path d="M 16 18 Q 24 16 22 12 Q 16 14 14 18 Z" fill="#00a800"/>
+        <path d="M 3 8 C 3 -4, 23 -4, 23 8 Z" fill="#e52521" stroke="#000" stroke-width="1.5"/>
+        <circle cx="8" cy="2" r="1.5" fill="#ffffff"/>
+        <circle cx="16" cy="0" r="1.5" fill="#ffffff"/>
+        <circle cx="19" cy="4" r="1.5" fill="#ffffff"/>
+        <polygon points="5,8 7,5 9,8 11,5 13,8 15,5 17,8 19,5 21,8" fill="#ffffff"/>
+      </g>
+    </g>
+    <!-- Pipe Collar -->
+    <rect x="0" y="6" width="52" height="18" fill="#00f800" stroke="#000000" stroke-width="2"/>
+    <rect x="4" y="8" width="6" height="14" fill="#ffffff" opacity="0.8"/>
+    <!-- Pipe Stem resting directly on ground (y=232) -->
+    <rect x="4" y="24" width="44" height="36" fill="#00a800" stroke="#000000" stroke-width="2"/>
+    <rect x="8" y="24" width="6" height="36" fill="#00f800"/>
+  </g>
+
+  <!-- PEACH'S CASTLE & FLAGPOLE (Right end level goal) -->
+  <g transform="translate(760, 132)">
+    <!-- Flagpole (Touches ground at y=100 from transform) -->
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#000000" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#00f800" stroke="#000" stroke-width="1.5"/>
+    <polygon points="0,6 24,14 0,22" fill="#e52521" stroke="#000" stroke-width="1.5"/>
+    <!-- Castle -->
+    <g transform="translate(22, 28)">
+      <rect x="0" y="20" width="46" height="52" fill="#b83c18" stroke="#000000" stroke-width="2"/>
+      <rect x="4" y="2" width="10" height="18" fill="#b83c18" stroke="#000000" stroke-width="1.5"/>
+      <rect x="18" y="2" width="10" height="18" fill="#b83c18" stroke="#000000" stroke-width="1.5"/>
+      <rect x="32" y="2" width="10" height="18" fill="#b83c18" stroke="#000000" stroke-width="1.5"/>
+      <path d="M 16 72 C 16 52, 30 52, 30 72 Z" fill="#000000"/>
+    </g>
+  </g>
+
+  <!-- GOOMBA MINION (WALKS FIRMLY ON GROUND y=232) -->
+  <!-- Goomba height is 20px, anchored at 212px -->
+  <g class="goomba-walker">
+    <path d="M 3 14 C 3 2, 21 2, 21 14 Z" fill="#a85400" stroke="#000000" stroke-width="1.5"/>
+    <path d="M 7 14 L 17 14 L 17 18 L 7 18 Z" fill="#fce4a0" stroke="#000000" stroke-width="1"/>
+    <ellipse cx="6" cy="18" rx="4" ry="2.5" fill="#000000"/>
+    <ellipse cx="18" cy="18" rx="4" ry="2.5" fill="#000000"/>
+    <!-- Eyes -->
+    <rect x="8" y="7" width="2" height="4" fill="#000000"/>
+    <rect x="14" y="7" width="2" height="4" fill="#000000"/>
+    <!-- Angry Eyebrows -->
+    <line x1="7" y1="5" x2="10" y2="7" stroke="#000000" stroke-width="1.5"/>
+    <line x1="17" y1="5" x2="14" y2="7" stroke="#000000" stroke-width="1.5"/>
+  </g>
+
+  <!-- MARIO HERO CHARACTER (WALKS FIRMLY ON GROUND y=232) -->
+  <!-- Mario height is 32px, anchored at 200px so shoes touch y=232! -->
+  <g class="mario-physics">
+    <!-- Cap -->
+    <path d="M 6 0 h 14 v 4 h -14 Z" fill="#ff0000"/>
+    <path d="M 4 2 h 20 v 3 h -20 Z" fill="#ff0000"/>
+    <!-- Face / Hair / Mustache -->
+    <path d="M 6 5 h 6 v 3 h -6 Z" fill="#6b3300"/>
+    <path d="M 12 5 h 6 v 3 h -6 Z" fill="#ffcca0"/>
+    <rect x="18" y="5" width="2" height="4" fill="#000000"/>
+    <path d="M 6 8 h 2 v 4 h -2 Z" fill="#6b3300"/>
+    <path d="M 8 8 h 12 v 6 h -12 Z" fill="#ffcca0"/>
+    <path d="M 14 11 h 8 v 3 h -8 Z" fill="#6b3300"/>
+    <!-- Overalls & Shirt -->
+    <path d="M 4 14 h 18 v 10 h -18 Z" fill="#ff0000"/>
+    <path d="M 8 14 h 9 v 12 h -9 Z" fill="#0000d8"/>
+    <!-- Yellow Buttons -->
+    <circle cx="10" cy="19" r="1.5" fill="#fcf800"/>
+    <circle cx="15" cy="19" r="1.5" fill="#fcf800"/>
+    <!-- Hands -->
+    <circle cx="2" cy="18" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
+    <circle cx="23" cy="18" r="3" fill="#ffcca0" stroke="#000000" stroke-width="1"/>
+    <!-- Boots touching ground -->
+    <rect x="5" y="26" width="6" height="6" fill="#6b3300" stroke="#000000" stroke-width="1"/>
+    <rect x="14" y="26" width="6" height="6" fill="#6b3300" stroke="#000000" stroke-width="1"/>
+  </g>
+
+  <!-- GROUND TERRAIN (Top edge is exactly at y=232) -->
+  <g transform="translate(0, 232)">
+    <!-- Top Orange/Grass Strip (6px) -->
+    <rect width="850" height="6" class="ground-top-strip"/>
+    <!-- Brick Soil Block Body (42px) -->
+    <rect y="6" width="850" height="42" class="ground-brick-body"/>
+    <!-- Classic Mario Brick Grid lines -->
+    <path d="M 0 6 L 850 6 M 0 16 L 850 16 M 0 26 L 850 26 M 0 36 L 850 36 M 0 46 L 850 46" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/>
+    <path d="M 20 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 40 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 60 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 80 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 100 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 120 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 140 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 160 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 180 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 200 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 220 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 240 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 260 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 280 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 300 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 320 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 340 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 360 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 380 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 400 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 420 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 440 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 460 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 480 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 500 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 520 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 540 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 560 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 580 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 600 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 620 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 640 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 660 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 680 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 700 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 720 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 740 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 760 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 780 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 800 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 820 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/> <path d="M 840 6 v 42" stroke="#000000" stroke-width="1" stroke-opacity="0.4"/>
   </g>
 </svg>

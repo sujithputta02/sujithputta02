@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" width="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @font-face {
+  font-family: 'Press Start 2P';
+  src: url(data:font/woff2;charset=utf-8;base64,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) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+      .card-bg { fill: #fce4a0; stroke: #000000; stroke-width: 3; rx: 8; }
+      .card-inner { fill: none; stroke: #b83c18; stroke-width: 1.5; rx: 5; }
+      .stage-badge { fill: #002fbe; stroke: #000000; stroke-width: 1.5; rx: 3; }
+      .stage-text { font-family: 'Press Start 2P', monospace; font-size: 7.5px; fill: #ffffff; font-weight: bold; }
+      .repo-title { font-family: 'Press Start 2P', monospace; font-size: 9.5px; fill: #000000; font-weight: bold; }
+      .repo-desc { font-family: 'Press Start 2P', monospace; font-size: 7px; fill: #4a3728; }
+      .meta-text { font-family: 'Press Start 2P', monospace; font-size: 7px; fill: #b83c18; font-weight: bold; }
+      .action-pill { fill: #00a800; stroke: #000000; stroke-width: 1; rx: 3; animation: pulsePlay 2s infinite ease-in-out; }
+      @keyframes pulsePlay {
+        0%, 100% { fill: #00a800; }
+        50% { fill: #00f800; }
+      }
+    </style>
+  </defs>
+
+  <!-- Base Cartridge -->
+  <rect x="4" y="4" width="412" height="132" class="card-bg"/>
+  <rect x="9" y="9" width="402" height="122" class="card-inner"/>
+
+  <!-- Stage Badge -->
+  <rect x="18" y="16" width="80" height="18" class="stage-badge"/>
+  <text x="58" y="28" class="stage-text" text-anchor="middle">STAGE 1-3</text>
+
+  <!-- Repo Title -->
+  <text x="110" y="28" class="repo-title">intentcloud</text>
+
+  <!-- Stats & Lang -->
+  <g transform="translate(18, 44)">
+    <rect width="80" height="16" rx="3" fill="#222222" stroke="#000" stroke-width="1"/>
+    <text x="40" y="11" font-family="'Press Start 2P', monospace" font-size="6.5" fill="#fcf800" text-anchor="middle">👾 TypeScript</text>
+    <text x="95" y="12" class="meta-text">⭐ 0  🍴 0</text>
+  </g>
+
+  <!-- Objective Description -->
+  <text x="18" y="78" class="repo-desc">> OBJ: An Intent Aware Cognitive Cloud Memory System</text>
+
+  <!-- Launch Stage Interactive CTA -->
+  <g transform="translate(18, 96)">
+    <rect width="140" height="20" class="action-pill"/>
+    <text x="70" y="14" font-family="'Press Start 2P', monospace" font-size="7" fill="#ffffff" text-anchor="middle">▶ PLAY STAGE / REPO</text>
+  </g>
+</svg>

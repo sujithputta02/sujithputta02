@@ -3,7 +3,7 @@
 <!-- RETRO GAME LEVEL (ANIMATED STANDALONE SVG) -->
 <img src="public/header.svg" width="100%" alt="Retro Game Level" />
 
-🎮 **Full-Stack Developer & AI Specialist**
+🎮 **Full-Stack Developer & AI Specialist**  
 *Architecting high-performance systems and intelligent, game-changing user experiences.*
 
 </div>
@@ -34,37 +34,55 @@
 
 ---
 
-### 🍄 CURRENT ADVENTURE QUESTS
+### 🍄 REAL-TIME ADVENTURE QUESTS (WARP ZONE)
 
 <div align="center">
+  <!-- Master Animated Quest Board -->
   <img src="public/adventure_quests.svg" width="100%" alt="Current Adventure Quests" />
+  
+  <br/><br/>
+  
+  <!-- Interactive Clickable Quest Cartridges -->
+  <table border="0" cellpadding="0" cellspacing="8" width="100%">
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <a href="https://github.com/sujithputta02/Esapay" target="_blank" title="Play Stage 1-1: Esapay">
+          <img src="public/quests/quest_1.svg" width="100%" alt="Stage 1-1: Esapay" />
+        </a>
+      </td>
+      <td width="50%" align="center" valign="top">
+        <a href="https://github.com/sujithputta02/DineInGo" target="_blank" title="Play Stage 1-2: DineInGo">
+          <img src="public/quests/quest_2.svg" width="100%" alt="Stage 1-2: DineInGo" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <a href="https://github.com/sujithputta02/intentcloud" target="_blank" title="Play Stage 1-3: intentcloud">
+          <img src="public/quests/quest_3.svg" width="100%" alt="Stage 1-3: intentcloud" />
+        </a>
+      </td>
+      <td width="50%" align="center" valign="top">
+        <a href="https://github.com/sujithputta02/PixelcraftPortfolio" target="_blank" title="Play Stage 1-4: PixelcraftPortfolio">
+          <img src="public/quests/quest_4.svg" width="100%" alt="Stage 1-4: PixelcraftPortfolio" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+  <a href="https://github.com/sujithputta02?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/🎮%20WARP%20ZONE-VIEW%20ALL%20LEVELS%20%26%20REPOS-b83c18?style=for-the-badge&logoColor=white" alt="View All Repos" />
+  </a>
 </div>
 
 ---
 
 ### 📊 SYSTEM PERFORMANCE METRICS
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=sujithputta02&show_icons=true&hide_border=false&bg_color=fce4a0&title_color=b83c18&text_color=000000&icon_color=e52521&border_color=b83c18&count_private=true&include_all_commits=true&rank_icon=github" width="95%" />
-    </td>
-    <td width="50%" valign="top" align="center">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sujithputta02&layout=compact&hide_border=false&bg_color=fce4a0&title_color=b83c18&text_color=000000&icon_color=e52521&border_color=b83c18&langs_count=8&exclude_repo=sujithputta02" width="95%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br/>
-      <img src="https://streak-stats.demolab.com/?user=sujithputta02&hide_border=false&background=fce4a0&stroke=b83c18&ring=e52521&fire=fc9838&currStreakLabel=b83c18&currStreakNum=000000&sideLabels=4a3728&sideNums=000000&dates=4a3728" width="70%" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-#### 📊 Contribution Activity
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sujithputta02&bg_color=fce4a0&color=b83c18&line=b83c18&point=e52521&area=true&hide_border=false&border_color=b83c18" width="100%" />
+<div align="center">
+  <img src="public/performance_metrics.svg" width="100%" alt="System Performance Metrics" />
+</div>
 
 <br/>
 
@@ -79,10 +97,10 @@
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=fce4a0&quoteColor=000000&authorColor=b83c18&symbolColor=b83c18&borderColor=b83c18" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=fce4a0&quoteColor=000000&authorColor=b83c18&symbolColor=b83c18&borderColor=b83c18" alt="Retro Quote" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=sujithputta02&color=b83c18&style=flat-square&label=SYSTEM+VISITS" />
+<img src="https://komarev.com/ghpvc/?username=sujithputta02&color=b83c18&style=flat-square&label=SYSTEM+VISITS" alt="System Visits" />
 
 </div>
