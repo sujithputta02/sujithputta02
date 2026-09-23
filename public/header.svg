@@ -197,7 +197,7 @@
   <!-- TOP HUD BAR (Iconic NES Arcade) -->
   <g transform="translate(45, 20)">
     <text x="0" y="0" class="hud-label">MARIO / SUJITH</text>
-    <text x="0" y="16" class="hud-val">000916</text>
+    <text x="0" y="16" class="hud-val">000917</text>
 
     <!-- Gold Coin Icon in HUD -->
     <g transform="translate(230, -6)">
