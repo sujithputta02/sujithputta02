@@ -115,7 +115,7 @@
       <rect x="5" y="8" width="6" height="3" fill="#fce4a0"/>
     </g>
     <text x="50" y="58" class="text-label">COMMITS STOMPED:</text>
-    <text x="245" y="58" class="text-val" id="val-commits">923</text>
+    <text x="245" y="58" class="text-val" id="val-commits">934</text>
 
     <!-- Coins -->
     <g transform="translate(24, 90)" class="powerup-icon">
