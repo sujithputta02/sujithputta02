@@ -139,7 +139,7 @@
       <circle cx="8" cy="11" r="4" fill="#ffcca0" stroke="#000" stroke-width="1"/>
     </g>
     <text x="50" y="178" class="text-label">PARTY ALLIES (NPC):</text>
-    <text x="245" y="178" class="text-val" id="val-followers">14</text>
+    <text x="245" y="178" class="text-val" id="val-followers">16</text>
 
     <!-- Rank Status -->
     <text x="50" y="210" class="text-label">ADVENTURER RANK:</text>
