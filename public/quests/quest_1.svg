@@ -36,7 +36,7 @@
   <!-- Stats & Lang -->
   <g transform="translate(18, 44)">
     <rect width="80" height="16" rx="3" fill="#222222" stroke="#000" stroke-width="1"/>
-    <text x="40" y="11" font-family="'Press Start 2P', monospace" font-size="6.5" fill="#fcf800" text-anchor="middle">👾 Rust</text>
+    <text x="40" y="11" font-family="'Press Start 2P', monospace" font-size="6.5" fill="#fcf800" text-anchor="middle">👾 TypeScript</text>
     <text x="95" y="12" class="meta-text">⭐ 2  🍴 0</text>
   </g>
 

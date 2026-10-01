@@ -103,7 +103,7 @@
 
     <!-- Language Tag -->
     <rect x="350" y="11" width="105" height="18" rx="3" fill="#222222" stroke="#000" stroke-width="1"/>
-    <text x="402" y="24" font-family="'Press Start 2P', monospace" font-size="7" fill="#fcf800" text-anchor="middle">👾 Rust</text>
+    <text x="402" y="24" font-family="'Press Start 2P', monospace" font-size="7" fill="#fcf800" text-anchor="middle">👾 TypeScript</text>
 
     <!-- Difficulty -->
     <text x="475" y="24" class="text-meta-label">DIFF:<tspan fill="#e52521"> BOSS STAGE</tspan></text>
