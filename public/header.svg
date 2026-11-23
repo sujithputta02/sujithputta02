@@ -208,7 +208,7 @@
     <text x="245" y="16" class="hud-val">x10</text>
 
     <text x="470" y="0" class="hud-label">WORLD</text>
-    <text x="470" y="16" class="hud-val">1-41</text>
+    <text x="470" y="16" class="hud-val">1-42</text>
 
     <text x="660" y="0" class="hud-label">TIME</text>
     <text x="660" y="16" class="hud-val">2026</text>

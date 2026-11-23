@@ -131,7 +131,7 @@
       <rect x="1" y="1" width="14" height="4" fill="#00f800" stroke="#000" stroke-width="1"/>
     </g>
     <text x="50" y="138" class="text-label">LEVELS CLEARED:</text>
-    <text x="245" y="138" class="text-val" id="val-repos">41</text>
+    <text x="245" y="138" class="text-val" id="val-repos">42</text>
 
     <!-- Allies -->
     <g transform="translate(24, 170)" class="powerup-icon">
